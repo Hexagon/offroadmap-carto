@@ -52,8 +52,11 @@ EOF
   --tag-transform-script openstreetmap-carto.lua \
   $OSM2PGSQL_DATAFILE
 
-  # Downloading and importing needed shapefiles
-  scripts/get-external-data.py $EXTERNAL_DATA_SCRIPT_FLAGS
+  # Downloading needed shapefiles
+  scripts/get-external-data.py
+
+  # Download fonts
+  scripts/get-fonts.sh
   ;;
 
 kosmtik)
