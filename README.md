@@ -1,6 +1,6 @@
 # Offroadmap Carto
 
-![screenshot](https://raw.github.com/gravitystorm/openstreetmap-carto/master/preview.png)
+![screenshot](https://raw.github.com/hexagon/offroadmap-carto/master/preview.png)
 
 These are the CartoCSS map stylesheets for the Standard map layer on [offroadmap.org](https://www.offroadmap.org/). This project is forked from [openstreetmap-carto](https://raw.github.com/gravitystorm/openstreetmap-carto).
 
