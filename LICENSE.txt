@@ -1,6 +1,7 @@
-OpenStreetMap Carto: A global map style for OpenStreetMap maps.
+Offroad Carto: A global map style for OpenStreetMap maps based on Openstreetmap Carto.
 
-Created by Andy Allan <andy@gravitystorm.co.uk> and contributors.
+Maintained by Hexagon <hexagon@56k.guru>
+Based on work by Andy Allan <andy@gravitystorm.co.uk> and contributors.
 Based on original cartography by Steve Chilton and others.
 
 This software and associated documentation files (the "Software") is

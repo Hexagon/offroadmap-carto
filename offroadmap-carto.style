@@ -1,5 +1,5 @@
-# This is the osm2pgsql .style file for openstreetmap-carto.
-# It is intended to be used with openstreetmap-carto.lua and osm2pgsql Lua
+# This is the osm2pgsql .style file for offroadmap-carto.
+# It is intended to be used with offroadmap-carto.lua and osm2pgsql Lua
 # transforms. Full usage details are in INSTALL.md
 # Among things, this means that the linear vs polygon distinction in this file
 # doesn't matter, because that is set in the Lua and this file is only used for
@@ -16,6 +16,7 @@ node,way   aeroway      text         polygon
 node,way   amenity      text         polygon
 node,way   barrier      text         linear
 way        bicycle      text         linear
+way        snowmobile   text         linear
 way        bridge       text         linear
 node,way   boundary     text         linear
 node,way   building     text         polygon
@@ -51,5 +52,5 @@ node,way   water        text         polygon
 node,way   waterway     text         polygon
 way        way_area     real         linear # This is calculated during import
 
-# Columns defined in openstreetmap-carto.lua file
+# Columns defined in offroadmap-carto.lua file
 way        z_order      int4         linear
