@@ -1,13 +1,21 @@
 /* For the main linear features, such as roads and railways. */
 
 @tertiary-fill: #d1c990;
+<<<<<<< HEAD
 @residential-fill: #ccc6ba;
+=======
+@residential-fill: #bab4a6;
+>>>>>>> 40275099 (Adapt to offroadmap.org)
 @service-fill: @residential-fill;
 @living-street-fill: #b89e9e;
 @pedestrian-fill: #dddde8;
 @raceway-fill: pink;
 @road-fill: #b0a07f;
+<<<<<<< HEAD
 @footway-fill: #FF6600;
+=======
+@footway-fill: #853717;
+>>>>>>> 40275099 (Adapt to offroadmap.org)
 @footway-fill-noaccess: #bbbbbb;
 @steps-fill: @footway-fill;
 @steps-fill-noaccess: #bbbbbb;
@@ -19,11 +27,14 @@
 @bridleway-fill-noaccess: #aaddaa;
 @track-fill: #663300;
 @track-fill-noaccess: #a67260;
+<<<<<<< HEAD
 @track-fill-grade1: #2a5400;
 @track-fill-grade2: #b5a000;
 @track-fill-grade3: #c46302;
 @track-fill-grade4: #783c00;
 @track-fill-grade5: #c43c02;
+=======
+>>>>>>> 40275099 (Adapt to offroadmap.org)
 @aeroway-fill: #bbc;
 @runway-fill: @aeroway-fill;
 @taxiway-fill: @aeroway-fill;
@@ -522,6 +533,7 @@
 
 
     [feature = 'highway_unclassified'] {
+<<<<<<< HEAD
       [zoom >= 11] {
         line-color: @residential-casing;
         line-width: @residential-width-z13;
@@ -549,6 +561,9 @@
 
     [feature = 'highway_residential'] {
       [zoom >= 13] {
+=======
+      [zoom >= 12] {
+>>>>>>> 40275099 (Adapt to offroadmap.org)
         line-color: @residential-casing;
         line-width: @residential-width-z13;
         [zoom >= 14] { line-width: @residential-width-z14; }
@@ -652,7 +667,7 @@
     }
 
     [feature = 'highway_living_street'] {
-      [zoom >= 13] {
+      [zoom >= 12] {
         line-color: @residential-casing;
         line-width: @living-street-width-z13;
         [zoom >= 14] {
@@ -1894,7 +1909,11 @@ tertiary is rendered from z10 and is not included in osm_planet_roads. */
     [feature = 'highway_path'][bicycle != 'designated'][horse != 'designated'] {
       [zoom >= 12][access != 'no'],
       [zoom >= 14] {
+<<<<<<< HEAD
         #roads-fill[zoom >= 13] {
+=======
+        #roads-fill[zoom >= 15] {
+>>>>>>> 40275099 (Adapt to offroadmap.org)
           background/line-color: @footway-casing;
           background/line-cap: round;
           background/line-join: round;
